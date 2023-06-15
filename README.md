@@ -18,20 +18,6 @@ Copernicus ERA5 dataset
 Copernicus Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis dataset
 3 by 5 km grid
 
-
-*********************
-*** Accessibility ***
-*********************
-The maximum limits for Hs and wind speed are applied when mapping the accessibility of a site. 
-The Accessibility layer shows the percentage of time the Hs (Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis) and wind speed (ERA5) are below these limits for the month.
-
-Input data is 20 years of hourly wave and wind data from 2000 to 2019, partitioned by month. At each timestep, the accessibility of the site was determined by checking if 
-the Hs and wind speed were below their respective limits. The percentage accessibility is the number of hours within limits divided by the total number of hours for the month.
-
-Environmental data is from the Copernicus data store (https://cds.climate.copernicus.eu/). Wave hourly data is from the 'Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis' dataset. 
-Wind hourly data is from the ERA 5 dataset. 
-
-
 **********************
 *** Weather Window ***
 **********************
