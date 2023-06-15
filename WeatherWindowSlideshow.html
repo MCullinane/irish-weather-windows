@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Slideshow.css"></link>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="js/Slideshow.js" defer></script>
+  <title>Irish weather windows</title>
+
+</head>
+
+<body>
+
+<h1 id='duration_label'>Weather Window : Wind speed < 10.0 m/s, Duration > 12 hours</h1>
+
+<!-- Weather Window selector-->
+<!-- https://stackoverflow.com/questions/16242980/making-radio-buttons-look-like-buttons-instead -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img id='1_5_Jan', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Feb.png" style="width:100%">
+    <div class="text">January, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Feb', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Feb.png" style="width:100%">
+    <div class="text">February, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Mar', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Mar.png" style="width:100%">
+    <div class="text">March, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Apr', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Apr.png" style="width:100%">
+    <div class="text">April, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_May', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_May.png" style="width:100%">
+    <div class="text">May, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Jun', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Jun.png" style="width:100%">
+    <div class="text">June, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Jul', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Jul.png" style="width:100%">
+    <div class="text">July, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Aug', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Aug.png" style="width:100%">
+    <div class="text">August, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">Set 1: 9/12</div>
+    <img id='1_5_Sep', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Sep.png" style="width:100%">
+    <div class="text">September, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Oct', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Oct.png" style="width:100%">
+    <div class="text">October, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Nov', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Nov.png" style="width:100%">
+    <div class="text">November, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='1_5_Dec', src="images/12_hrs/Hs_1.5_wind_10.0_hrs_12/WeatherWindow__Hs_1.5_wind_10.0_hrs_12_Dec.png" style="width:100%">
+    <div class="text">December, Hs 1.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Jan', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Jan.png" style="width:100%">
+    <div class="text">January, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Feb', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Feb.png" style="width:100%">
+    <div class="text">February, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Mar', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Mar.png" style="width:100%">
+    <div class="text">March, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Apr', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Apr.png" style="width:100%">
+    <div class="text">April, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_May', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_May.png" style="width:100%">
+    <div class="text">May, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Jun', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Jun.png" style="width:100%">
+    <div class="text">June, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Jul', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Jul.png" style="width:100%">
+    <div class="text">July, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Aug', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Aug.png" style="width:100%">
+    <div class="text">August, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Sep', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Sep.png" style="width:100%">
+    <div class="text">September, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Oct', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Oct.png" style="width:100%">
+    <div class="text">October, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Nov', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Nov.png" style="width:100%">
+    <div class="text">November, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_Dec', src="images/12_hrs/Hs_2_wind_10.0_hrs_12/WeatherWindow__Hs_2_wind_10.0_hrs_12_Dec.png" style="width:100%">
+    <div class="text">December, Hs 2m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">Set 3: 1/12</div>
+    <img id='2_5_Jan', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Jan.png" style="width:100%">
+    <div class="text">January, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Feb', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Feb.png" style="width:100%">
+    <div class="text">February, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Mar', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Mar.png" style="width:100%">
+    <div class="text">March, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Apr', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Apr.png" style="width:100%">
+    <div class="text">April, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_May', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_May.png" style="width:100%">
+    <div class="text">May, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Jun', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Jun.png" style="width:100%">
+    <div class="text">June, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Jul', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Jul.png" style="width:100%">
+    <div class="text">July, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Aug', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Aug.png" style="width:100%">
+    <div class="text">August, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Sep', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Sep.png" style="width:100%">
+    <div class="text">September, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Oct', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Oct.png" style="width:100%">
+    <div class="text">October, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Nov', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Nov.png" style="width:100%">
+    <div class="text">November, Hs 2.5m</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img id='2_5_Dec', src="images/12_hrs/Hs_2.5_wind_10.0_hrs_12/WeatherWindow__Hs_2.5_wind_10.0_hrs_12_Dec.png" style="width:100%">
+    <div class="text">December, Hs 2.5m</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<fieldset>
+<legend>Select duration </legend>
+<ul class="select-duration">
+  <li>
+    <input type="radio" id="3_hrs" name="duration" value = 3 />
+    <label for="3_hrs">3 hours</label>
+  </li>
+  <li>
+    <input type="radio" id="6_hrs" name="duration" value = 6 />
+    <label for="6_hrs">6 hours</label>
+  </li>
+  <li>
+    <input type="radio" id="12_hrs" name="duration" value = 12 checked="checked" />
+    <label for="12_hrs">12 hours</label>
+  </li>
+  <li>
+    <input type="radio" id="24_hrs" name="duration" value = 24 />
+    <label for="24_hrs">24 hours</label>
+  </li>
+  <li>
+    <input type="radio" id="48_hrs" name="duration" value = 48 />
+    <label for="48_hrs">48 hours</label>
+  </li>
+  <li>
+    <input type="radio" id="72_hrs" name="duration" value = 72 />
+    <label for="72_hrs">72 hours</label>
+  </li>
+
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>Select Hs and month</legend>
+<!-- The month labels -->
+<div style="text-align:center">
+  <span style="white-space: nowrap; color: white;">_._m Hs</span>
+  <span class="monthLabel">J</span>
+  <span class="monthLabel">F</span>
+  <span class="monthLabel">M</span>
+  <span class="monthLabel">A</span>
+  <span class="monthLabel">M</span>
+  <span class="monthLabel">J</span>
+  <span class="monthLabel">J</span>
+  <span class="monthLabel">A</span>
+  <span class="monthLabel">S</span>
+  <span class="monthLabel">O</span>
+  <span class="monthLabel">N</span>
+  <span class="monthLabel">D</span>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span style="white-space: nowrap;">1.5m Hs</span>
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+</div>
+
+<div style="text-align:center">
+  <span style="white-space: nowrap;">2.0m Hs</span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+  <span class="dot" onclick="currentSlide(15)"></span>
+  <span class="dot" onclick="currentSlide(16)"></span>
+  <span class="dot" onclick="currentSlide(17)"></span>
+  <span class="dot" onclick="currentSlide(18)"></span>
+  <span class="dot" onclick="currentSlide(19)"></span>
+  <span class="dot" onclick="currentSlide(20)"></span>
+  <span class="dot" onclick="currentSlide(21)"></span>
+  <span class="dot" onclick="currentSlide(22)"></span>
+  <span class="dot" onclick="currentSlide(23)"></span>
+  <span class="dot" onclick="currentSlide(24)"></span>
+</div>
+
+
+
+<div style="text-align:center">
+  <span style="white-space: nowrap;">2.5m Hs</span>
+  <span class="dot" onclick="currentSlide(25)"></span>
+  <span class="dot" onclick="currentSlide(26)"></span>
+  <span class="dot" onclick="currentSlide(26)"></span>
+  <span class="dot" onclick="currentSlide(28)"></span>
+  <span class="dot" onclick="currentSlide(29)"></span>
+  <span class="dot" onclick="currentSlide(30)"></span>
+  <span class="dot" onclick="currentSlide(31)"></span>
+  <span class="dot" onclick="currentSlide(32)"></span>
+  <span class="dot" onclick="currentSlide(33)"></span>
+  <span class="dot" onclick="currentSlide(34)"></span>
+  <span class="dot" onclick="currentSlide(35)"></span>
+  <span class="dot" onclick="currentSlide(36)"></span>
+</div>
+</fieldset>
+
+<p>Created by Margaret Cullinane, UCC MaREI</p>
+
+</body>
+</html>
+
+
