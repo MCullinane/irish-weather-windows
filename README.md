@@ -8,13 +8,13 @@ All calculations use open-source data from the Copernicus store and the open-sou
 Hourly Data from 2000 to 2019
 
 ## Wind 
-Copernicus ERA5 dataset
-17 by 27.5 km grid 
-10m wind speed
+Copernicus ERA5 dataset <br />
+17 by 27.5 km grid <br />
+10m wind speed <br />
 
 ## Wave 
-Copernicus Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis dataset
-3 by 5 km grid
+Copernicus Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis dataset <br />
+3 by 5 km grid <br />
 
 
 # Weather Window 
