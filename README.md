@@ -2,25 +2,22 @@
 Visualisation tool for percentage availability of weather windows around Ireland for Hs [1.5, 2, 2.5], wind speed (10m/s) and duration [3, 6, 12, 24, 48, 72] hours.
 
 
-******************
-*** Input Data ***
-******************
+# Input Data
 All calculations use open-source data from the Copernicus store and the open-source software Python. The Python xarray library is used to read the data.
 
 Hourly Data from 2000 to 2019
 
-- Wind -
+## Wind 
 Copernicus ERA5 dataset
 17 by 27.5 km grid 
 10m wind speed
 
-- Wave -
+## Wave 
 Copernicus Atlantic -Iberian Biscay Irish - Ocean Wave Reanalysis dataset
 3 by 5 km grid
 
-**********************
-*** Weather Window ***
-**********************
+
+# Weather Window 
 The weather window availability is the percentage of possible x-duration windows where weather conditions (Hs, wind speed) are below maximum limits for the 
 given duration for the month.
 
